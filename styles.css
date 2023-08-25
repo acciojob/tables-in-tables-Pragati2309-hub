@@ -1,2 +1,31 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .black-cell {
+    background-color: black;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    padding: 4px 0;
+  }
